@@ -1,3 +1,8 @@
+# mydisk
+## centos7
+### kickstart config
+
+```sh
 #version=RHEL7
 
 cmdline
@@ -38,3 +43,4 @@ mount -o ro /dev/cdrom /mnt/cdrom
 set -x
 %include /mnt/cdrom/ks/post.sh
 %end
+```
